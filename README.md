@@ -1,6 +1,4 @@
-python-scripts
+FBLinkScrapper
 ==============
 
-1.pyLink
 
-2.0xMirror
