@@ -7,19 +7,11 @@ import sys
 import time
 import StringIO
 
-__author__ = "Raghav Sood"
-__copyright__ = "Copyright 2014"
-__credits__ = ["Raghav Sood"]
-__license__ = "CC"
-__version__ = "1.0"
-__maintainer__ = "Raghav Sood"
-__email__ = "raghavsood@appaholics.in"
-__status__ = "Production"
 
 if len(sys.argv) <= 1:
-	print "Usage:\n 	python dumper.py [conversation ID] [chunk_size (recommended: 2000)] [{optional} offset location (default: 0)]"
-	print "Example conversation with Raghav Sood"
-	print "	python dumper.py 1075686392 2000 0"
+	print "Usage:\n 	python chat.py [conversation ID] [chunk_size (recommended: 2000)] [{optional} offset location (default: 0)]"
+	print "Example conversation with Mark Zuck"
+	print "	python chat.py 1075686392 2000 0"
 	sys.exit()
 
 error_timeout = 30 # Change this to alter error timeout (seconds)

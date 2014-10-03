@@ -31,8 +31,8 @@ Downloading Messages
 
 1. Get the conversation ID for those messages by opening [http://graph.facebook.com/{username-of-chat-partner}](http://graph.facebook.com/{username_of_chat_partner})
 2. Copy the `id` value from there
-3. For group conversations, the ID can be retrieved from the messages tab, as part of the URL. You must use `group_dumper.py` instead.
-4. Run the command `python dumper.py {id} 2000`, and put the value you retrieved for ID earlier
+3. For group conversations, the ID can be retrieved from the messages tab, as part of the URL. You must use `group_chat.py` instead.
+4. Run the command `python chat.py {id} 2000`, and put the value you retrieved for ID earlier
 
 Messages are saved by default to `Messages/{id}/`
 
@@ -53,6 +53,6 @@ Interrupting the execution before completion only leaves the JSON chunks, not th
 REFERENCES
 ==========
 
-I used the followiing script to retrieve all the messages in a Facebook chat and then filtered out the  the entire chat to extract just the links shared in it.......https://github.com/RaghavSood/FBMessageScraper
+I used the followiing script to retrieve all the messages in a Facebook chat and then filtered out only the links shared in it.......https://github.com/RaghavSood/FBMessageScraper
 
 
