@@ -36,6 +36,11 @@ Downloading Messages
 
 Messages are saved by default to `Messages/{id}/`
 
+Remaining issues
+================
+
+Script still in developement phase.Not working yet
+
 Known Issues
 ============
 
