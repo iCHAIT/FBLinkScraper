@@ -1,7 +1,7 @@
 FBLinkScrapper
 ==============
 
-A simple python script to download all the links shared in an entire conversation from Facebook.
+A python script to download all the links shared in an entire conversation from Facebook.
 
 Outputs the conversation in a JSON format, as well as the JSON for each individual chunk.
 
@@ -36,11 +36,6 @@ Downloading Messages
 
 Messages are saved by default to `Messages/{id}/`
 
-Remaining issues
-================
-
-Script still in developement phase.Not working yet
-
 Known Issues
 ============
 
@@ -50,9 +45,13 @@ It may take the script several tries to get a valid response.
 
 Interrupting the execution before completion only leaves the JSON chunks, not the stitched file.
 
+Script still in developement phase.
+
 REFERENCES
 ==========
 
 I used the followiing script to retrieve all the messages in a Facebook chat and then filtered out only the links shared in it.......https://github.com/RaghavSood/FBMessageScraper
+
+
 
 

@@ -2,6 +2,7 @@ import json
 from pprint import pprint
 import re
 
+
 with open('complete.pretty.json') as data_file:
     data = json.load(data_file)
     print "\n"
