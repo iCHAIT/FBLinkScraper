@@ -5,6 +5,7 @@ A python script to download all the links shared in an entire conversation from 
 
 Outputs the conversation in a JSON format, as well as the JSON for each individual chunk.
 
+
 Initial Setup
 =============
 
@@ -26,6 +27,7 @@ Run for both `chat.py` and `group_chat.py`
 
 You're now all set to start downloading messages.
 
+
 Downloading Messages
 ====================
 
@@ -35,6 +37,7 @@ Downloading Messages
 4. Run the command `python chat.py {id} 2000`, and put the value you retrieved for ID earlier
 
 Messages are saved by default to `Messages/{id}/`
+
 
 Known Issues
 ============
@@ -46,6 +49,7 @@ It may take the script several tries to get a valid response.
 Interrupting the execution before completion only leaves the JSON chunks, not the stitched file.
 
 Script still in developement phase.
+
 
 REFERENCES
 ==========
