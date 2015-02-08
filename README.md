@@ -64,9 +64,9 @@ TODO
 
 A web application that will contain the list of all the links exchanged in all the Facebook Chats and segregate them on the basis of the author's name and displaying the timestamp for each link using the folowing for - 
 
-Front end - Bootstrap.
-Backend - MySQL/Postgresql
-Framework - Django/Flask
+* **Front end** - Bootstrap.
+* **Backend** - MySQL/Postgresql
+* **Framework** - Django/Flask
 
 
-Further functionalities will be added to this for eg. segregation on the basis of timestamp,topics,tags etc..!!
+Further functionalities will be added to this,for eg. options for segregating the links on the basis of timestamp,topics,tags etc..!!
