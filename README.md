@@ -57,5 +57,16 @@ REFERENCES
 I used the followiing script to retrieve all the messages in a Facebook chat and then filtered out only the links shared in it.......https://github.com/RaghavSood/FBMessageScraper
 
 
+TODO
+====
+
+### LinkBin
+
+A web application that will contain the list of all the links exchanged in all the Facebook Chats and segregate them on the basis of the author's name and displaying the timestamp for each link using the folowing for - 
+
+Front end - Bootstrap.
+Backend - MySQL/Postgresql
+Framework - Django/Flask
 
 
+Further functionalities will be added to this for eg. segregation on the basis of timestamp,topics,tags etc..!!
