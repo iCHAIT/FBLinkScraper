@@ -62,11 +62,8 @@ TODO
 
 ### LinkBin
 
-A web application that will contain the list of all the links exchanged in all the Facebook Chats and segregate them on the basis of the author's name and displaying the timestamp for each link using the folowing for - 
+A web application that will contain the list of all the links exchanged in all the Facebook Chats and segregate them on the basis of the author's name and displaying the timestamp for each link.
 
-* **Front end** - Bootstrap.
-* **Backend** - MySQL/Postgresql
-* **Framework** - Django/Flask
-
+The data will be fetched directly from the JSON file that contains all the links of all the facebook chats and will be binded to a html frontend(the web app in our case).
 
 Further functionalities will be added to this,for eg. options for segregating the links on the basis of timestamp,topics,tags etc..!!
